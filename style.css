@@ -1,0 +1,32 @@
+body{
+    background: #55ACEE;
+}
+main {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 5%;
+    text-align: center;
+    color:white;
+}
+h1, .box {
+    padding-bottom: 65px;
+}
+.trigger, .tweet {
+    width: 400px;
+    background: transparent;
+    border: 1px solid white;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: 19px;
+    color:white;
+    line-height: 40px;
+}
+a.tweet{
+    text-decoration: none;
+}
+.trigger:hover, .tweet:hover {
+    background: white;
+    color: darkgray;
+}
